@@ -3,18 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D249848259502F100C206B4 /* AddEditTransformerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D249847259502F100C206B4 /* AddEditTransformerViewController.swift */; };
+		8D249853259503E300C206B4 /* AddEditTransformerParameterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D249851259503E300C206B4 /* AddEditTransformerParameterTableViewCell.swift */; };
+		8D249854259503E300C206B4 /* AddEditTransformerParameterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D249852259503E300C206B4 /* AddEditTransformerParameterTableViewCell.xib */; };
+		8D2CA20E259A355400689FAA /* TransformersAPITestMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CA20D259A355400689FAA /* TransformersAPITestMock.swift */; };
 		8D4E27D82594C44E007329FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E27D72594C44E007329FD /* AppDelegate.swift */; };
 		8D4E27DA2594C44E007329FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E27D92594C44E007329FD /* SceneDelegate.swift */; };
-		8D4E27DC2594C44E007329FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E27DB2594C44E007329FD /* ViewController.swift */; };
 		8D4E27DF2594C44E007329FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E27DD2594C44E007329FD /* Main.storyboard */; };
 		8D4E27E12594C451007329FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E27E02594C451007329FD /* Assets.xcassets */; };
 		8D4E27E42594C451007329FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E27E22594C451007329FD /* LaunchScreen.storyboard */; };
-		8D4E27EF2594C452007329FD /* AequilibriumTransformersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E27EE2594C452007329FD /* AequilibriumTransformersTests.swift */; };
 		8D4E27FA2594C452007329FD /* AequilibriumTransformersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E27F92594C452007329FD /* AequilibriumTransformersUITests.swift */; };
+		8D4E280F2594C628007329FD /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 8D4E280E2594C628007329FD /* SDWebImage */; };
+		8D4E281C2594C9BB007329FD /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E281B2594C9BB007329FD /* Transformer.swift */; };
+		8D4E28262594CC09007329FD /* TransformersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E28252594CC09007329FD /* TransformersAPI.swift */; };
+		8D4E28372594FCC4007329FD /* TranformersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E28362594FCC4007329FD /* TranformersListViewController.swift */; };
+		8DAA305F259622D000966B50 /* TransformerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA305D259622D000966B50 /* TransformerTableViewCell.swift */; };
+		8DAA3060259622D000966B50 /* TransformerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DAA305E259622D000966B50 /* TransformerTableViewCell.xib */; };
+		8DAA306925962C8600966B50 /* TransformersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA306825962C8600966B50 /* TransformersListViewModel.swift */; };
+		8DAA3071259648C600966B50 /* TransformersBattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3070259648C600966B50 /* TransformersBattleViewController.swift */; };
+		8DAA3076259648DF00966B50 /* TransformersBattleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3075259648DF00966B50 /* TransformersBattleViewModel.swift */; };
+		8DAA30802599EB9500966B50 /* TransformersBattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA307F2599EB9500966B50 /* TransformersBattleTests.swift */; };
+		8DE15B55259BA8D10090EE6E /* TransformersAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE15B54259BA8D10090EE6E /* TransformersAPITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +48,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D249847259502F100C206B4 /* AddEditTransformerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTransformerViewController.swift; sourceTree = "<group>"; };
+		8D249851259503E300C206B4 /* AddEditTransformerParameterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTransformerParameterTableViewCell.swift; sourceTree = "<group>"; };
+		8D249852259503E300C206B4 /* AddEditTransformerParameterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddEditTransformerParameterTableViewCell.xib; sourceTree = "<group>"; };
+		8D2CA20D259A355400689FAA /* TransformersAPITestMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformersAPITestMock.swift; sourceTree = "<group>"; };
 		8D4E27D42594C44E007329FD /* AequilibriumTransformers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AequilibriumTransformers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4E27D72594C44E007329FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D4E27D92594C44E007329FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D4E27DB2594C44E007329FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D4E27DE2594C44E007329FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D4E27E02594C451007329FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D4E27E32594C451007329FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D4E27E52594C451007329FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D4E27EA2594C452007329FD /* AequilibriumTransformersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AequilibriumTransformersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D4E27EE2594C452007329FD /* AequilibriumTransformersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AequilibriumTransformersTests.swift; sourceTree = "<group>"; };
 		8D4E27F02594C452007329FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D4E27F52594C452007329FD /* AequilibriumTransformersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AequilibriumTransformersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4E27F92594C452007329FD /* AequilibriumTransformersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AequilibriumTransformersUITests.swift; sourceTree = "<group>"; };
 		8D4E27FB2594C452007329FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4E281B2594C9BB007329FD /* Transformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformer.swift; sourceTree = "<group>"; };
+		8D4E28252594CC09007329FD /* TransformersAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformersAPI.swift; sourceTree = "<group>"; };
+		8D4E28362594FCC4007329FD /* TranformersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranformersListViewController.swift; sourceTree = "<group>"; };
+		8DAA305D259622D000966B50 /* TransformerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformerTableViewCell.swift; sourceTree = "<group>"; };
+		8DAA305E259622D000966B50 /* TransformerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformerTableViewCell.xib; sourceTree = "<group>"; };
+		8DAA306825962C8600966B50 /* TransformersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformersListViewModel.swift; sourceTree = "<group>"; };
+		8DAA3070259648C600966B50 /* TransformersBattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformersBattleViewController.swift; sourceTree = "<group>"; };
+		8DAA3075259648DF00966B50 /* TransformersBattleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformersBattleViewModel.swift; sourceTree = "<group>"; };
+		8DAA307F2599EB9500966B50 /* TransformersBattleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformersBattleTests.swift; sourceTree = "<group>"; };
+		8DE15B54259BA8D10090EE6E /* TransformersAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformersAPITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4E280F2594C628007329FD /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +102,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D249843259500DB00C206B4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8D249851259503E300C206B4 /* AddEditTransformerParameterTableViewCell.swift */,
+				8D249852259503E300C206B4 /* AddEditTransformerParameterTableViewCell.xib */,
+				8DAA305D259622D000966B50 /* TransformerTableViewCell.swift */,
+				8DAA305E259622D000966B50 /* TransformerTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		8D4E27CB2594C44E007329FD = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +136,13 @@
 		8D4E27D62594C44E007329FD /* AequilibriumTransformers */ = {
 			isa = PBXGroup;
 			children = (
+				8DAA306425962C3000966B50 /* ViewModels */,
+				8D249843259500DB00C206B4 /* Cells */,
+				8D4E282D2594F964007329FD /* ViewControllers */,
+				8D4E281A2594C90E007329FD /* Networking */,
+				8D4E28192594C747007329FD /* Models */,
 				8D4E27D72594C44E007329FD /* AppDelegate.swift */,
 				8D4E27D92594C44E007329FD /* SceneDelegate.swift */,
-				8D4E27DB2594C44E007329FD /* ViewController.swift */,
 				8D4E27DD2594C44E007329FD /* Main.storyboard */,
 				8D4E27E02594C451007329FD /* Assets.xcassets */,
 				8D4E27E22594C451007329FD /* LaunchScreen.storyboard */,
@@ -113,8 +154,9 @@
 		8D4E27ED2594C452007329FD /* AequilibriumTransformersTests */ = {
 			isa = PBXGroup;
 			children = (
-				8D4E27EE2594C452007329FD /* AequilibriumTransformersTests.swift */,
 				8D4E27F02594C452007329FD /* Info.plist */,
+				8DAA307F2599EB9500966B50 /* TransformersBattleTests.swift */,
+				8DE15B54259BA8D10090EE6E /* TransformersAPITests.swift */,
 			);
 			path = AequilibriumTransformersTests;
 			sourceTree = "<group>";
@@ -126,6 +168,42 @@
 				8D4E27FB2594C452007329FD /* Info.plist */,
 			);
 			path = AequilibriumTransformersUITests;
+			sourceTree = "<group>";
+		};
+		8D4E28192594C747007329FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E281B2594C9BB007329FD /* Transformer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D4E281A2594C90E007329FD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E28252594CC09007329FD /* TransformersAPI.swift */,
+				8D2CA20D259A355400689FAA /* TransformersAPITestMock.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8D4E282D2594F964007329FD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E28362594FCC4007329FD /* TranformersListViewController.swift */,
+				8D249847259502F100C206B4 /* AddEditTransformerViewController.swift */,
+				8DAA3070259648C600966B50 /* TransformersBattleViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8DAA306425962C3000966B50 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA306825962C8600966B50 /* TransformersListViewModel.swift */,
+				8DAA3075259648DF00966B50 /* TransformersBattleViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +222,9 @@
 			dependencies = (
 			);
 			name = AequilibriumTransformers;
+			packageProductDependencies = (
+				8D4E280E2594C628007329FD /* SDWebImage */,
+			);
 			productName = AequilibriumTransformers;
 			productReference = 8D4E27D42594C44E007329FD /* AequilibriumTransformers.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +296,9 @@
 				Base,
 			);
 			mainGroup = 8D4E27CB2594C44E007329FD;
+			packageReferences = (
+				8D4E280D2594C628007329FD /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 8D4E27D52594C44E007329FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +318,8 @@
 				8D4E27E42594C451007329FD /* LaunchScreen.storyboard in Resources */,
 				8D4E27E12594C451007329FD /* Assets.xcassets in Resources */,
 				8D4E27DF2594C44E007329FD /* Main.storyboard in Resources */,
+				8D249854259503E300C206B4 /* AddEditTransformerParameterTableViewCell.xib in Resources */,
+				8DAA3060259622D000966B50 /* TransformerTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +344,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4E27DC2594C44E007329FD /* ViewController.swift in Sources */,
+				8DAA3076259648DF00966B50 /* TransformersBattleViewModel.swift in Sources */,
 				8D4E27D82594C44E007329FD /* AppDelegate.swift in Sources */,
+				8D249853259503E300C206B4 /* AddEditTransformerParameterTableViewCell.swift in Sources */,
+				8DAA306925962C8600966B50 /* TransformersListViewModel.swift in Sources */,
+				8D249848259502F100C206B4 /* AddEditTransformerViewController.swift in Sources */,
+				8D4E28262594CC09007329FD /* TransformersAPI.swift in Sources */,
+				8D4E28372594FCC4007329FD /* TranformersListViewController.swift in Sources */,
+				8DAA305F259622D000966B50 /* TransformerTableViewCell.swift in Sources */,
 				8D4E27DA2594C44E007329FD /* SceneDelegate.swift in Sources */,
+				8DAA3071259648C600966B50 /* TransformersBattleViewController.swift in Sources */,
+				8D2CA20E259A355400689FAA /* TransformersAPITestMock.swift in Sources */,
+				8D4E281C2594C9BB007329FD /* Transformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +363,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4E27EF2594C452007329FD /* AequilibriumTransformersTests.swift in Sources */,
+				8DE15B55259BA8D10090EE6E /* TransformersAPITests.swift in Sources */,
+				8DAA30802599EB9500966B50 /* TransformersBattleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,13 +462,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -421,12 +518,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -437,7 +535,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AequilibriumTransformers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +555,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AequilibriumTransformers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,7 +576,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AequilibriumTransformersTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,7 +597,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AequilibriumTransformersTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -587,6 +689,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D4E280D2594C628007329FD /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D4E280E2594C628007329FD /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D4E280D2594C628007329FD /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8D4E27CC2594C44E007329FD /* Project object */;
 }

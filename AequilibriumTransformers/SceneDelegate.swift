@@ -2,11 +2,12 @@
 //  SceneDelegate.swift
 //  AequilibriumTransformers
 //
-//  Created by Lukasz Skierkowski on 24/12/2020.
+//  Created by Lucas Skierkowski on 30/12/2020.
 //
 
 import UIKit
 
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
